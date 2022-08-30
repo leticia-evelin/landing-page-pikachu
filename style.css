@@ -96,9 +96,9 @@ main{
     text-decoration: none;
 }
 
-footer{
+ footer{
     text-align: center;
-}
+ }
 
 @media (max-width:960px){
  main{
@@ -112,6 +112,7 @@ footer{
  .title{
      place-self:  start center;
     }
+
  :root{
   --space-defaut:30px;
     }
@@ -132,4 +133,47 @@ footer{
  footer{
     display: none;
     }
-}
+
+ }
+@media (max-width: 640px) {
+ .pikachu-image{
+    transform: translate(-50%, -50%);
+  width: 90vw;
+  }
+
+  .title{
+      transform: translateY(10%);
+  }
+
+ .description__title{
+    font-size: 10vw ;
+ }
+ 
+
+ .description__text {
+ display: none;
+  }
+
+ .action{
+  width: 100%;
+  }
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+     
+
+
+
+
